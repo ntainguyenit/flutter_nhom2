@@ -90,7 +90,7 @@ class BuildButton extends StatelessWidget {
 
 Widget block4() {
   const data =
-      "Khu phố của em vừa tổ chức Trung thu. Chúng em rất háo hức tham gia. Khoảng tám giờ, các bạn đã đến nhà văn hóa. Tám giờ ba mươi phút, chương trình được bắt đầu. Tiết mục mở màn là múa lân. Sau đó, các tiết mục văn nghệ được biểu diễn. Chị Hằng và chú Quậy xuất hiện với màn đối đáp hài hước. Kết thúc chương trình, chúng em được phát bánh kẹo. Em cảm thấy vui vẻ lắm!";
+      "Tổ dân phố của em vừa tổ chức Tết Trung Thu. Chúng em rất háo hức tham gia. Khoảng tám giờ, các bạn đã đến nhà văn hóa. Tám giờ ba mươi phút, chương trình được bắt đầu. Tiết mục mở màn là múa lân. Sau đó, các tiết mục văn nghệ được biểu diễn. Chị Hằng và chú Cuội xuất hiện với màn đối đáp hài hước. Kết thúc chương trình, chúng em được phát bánh kẹo. Em cảm thấy vui vẻ lắm!";
   return const Padding(
     padding: EdgeInsets.all(20.0),
     child: Text(data, softWrap: true),
