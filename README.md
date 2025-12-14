@@ -1,10 +1,10 @@
-# 📱 Mobile App Flutter – Nhóm 2
+# Mobile App Flutter – Nhóm 2
 
-## 📌 Giới thiệu
-Dự án **Mobile App Flutter – Nhóm 2** là ứng dụng tổng hợp các **bài tập Flutter** được xây dựng trong quá trình học môn **Lập trình Mobile**.  
+## 📌Giới thiệu
+**Mobile App Flutter – Nhóm 2** là ứng dụng tổng hợp các **bài tập Flutter** được xây dựng trong quá trình học môn **Lập trình Mobile**.  
 Ứng dụng sử dụng **Flutter** để xây dựng giao diện, quản lý điều hướng giữa các màn hình thông qua **Drawer Menu & Navigation**.
 
-Mỗi bài tập được thiết kế như **một màn hình độc lập**, có thể truy cập nhanh thông qua Menu mà **không cần quay về trang chủ**.
+Mỗi bài tập được thiết kế như **một màn hình độc lập**, có thể truy cập nhanh thông qua **Menu**.
 
 ---
 
@@ -21,7 +21,6 @@ Mỗi bài tập được thiết kế như **một màn hình độc lập**, c
 ## 📂 Cấu trúc thư mục chính
 ```text
 lib/
-├── api/                 # Xử lý gọi API
 ├── model/               # Model dữ liệu (Article, Product,...)
 ├── screen/              # Các màn hình (News, Detail,...)
 ├── change_color_app.dart
@@ -33,4 +32,3 @@ lib/
 ├── my_home_page.dart
 ├── tong_hop_bai_tap.dart # Tổng hợp & menu bài tập
 └── main.dart
-
