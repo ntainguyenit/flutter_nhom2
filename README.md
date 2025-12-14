@@ -1,16 +1,36 @@
-# flutter_nhom2
+# 📱 Mobile App Flutter – Nhóm 2
 
-A new Flutter project.
+## 📌 Giới thiệu
+Dự án **Mobile App Flutter – Nhóm 2** là ứng dụng tổng hợp các **bài tập Flutter** được xây dựng trong quá trình học môn **Lập trình Mobile**.  
+Ứng dụng sử dụng **Flutter** để xây dựng giao diện, quản lý điều hướng giữa các màn hình thông qua **Drawer Menu & Navigation**.
 
-## Getting Started
+Mỗi bài tập được thiết kế như **một màn hình độc lập**, có thể truy cập nhanh thông qua Menu mà **không cần quay về trang chủ**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Công nghệ sử dụng
+- **Flutter**
+- **Dart**
+- **Material Design**
+- **Navigator & Routes**
+- **Drawer Menu**
+- **REST API (News API)**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Cấu trúc thư mục chính
+```text
+lib/
+├── api/                 # Xử lý gọi API
+├── model/               # Model dữ liệu (Article, Product,...)
+├── screen/              # Các màn hình (News, Detail,...)
+├── change_color_app.dart
+├── counter_app.dart
+├── gui_phan_hoi.dart
+├── login_form.dart
+├── signup_form.dart
+├── tinh_bmi.dart
+├── my_home_page.dart
+├── tong_hop_bai_tap.dart # Tổng hợp & menu bài tập
+└── main.dart
+
