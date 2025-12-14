@@ -1,10 +1,10 @@
-# Mobile App Flutter – Nhóm 2
+# 📱 Mobile App Flutter – Nhóm 2
 
 ## 📌 Giới thiệu
 **Mobile App Flutter – Nhóm 2** là ứng dụng tổng hợp các **bài tập Flutter** được xây dựng trong quá trình học môn **Lập trình Mobile**.  
-Ứng dụng sử dụng **Flutter** để xây dựng giao diện, quản lý điều hướng giữa các màn hình thông qua **Drawer Menu & Navigation**.
+Ứng dụng sử dụng **Flutter** để xây dựng giao diện và quản lý điều hướng giữa các màn hình thông qua **Drawer Menu & Navigation**.
 
-Mỗi bài tập được thiết kế như **một màn hình độc lập**, có thể truy cập nhanh thông qua **Menu**.
+Mỗi bài tập được thiết kế như **một màn hình (Screen) độc lập**, cho phép người dùng truy cập nhanh thông qua **Menu**.
 
 ---
 
@@ -21,21 +21,21 @@ Mỗi bài tập được thiết kế như **một màn hình độc lập**, c
 ## 📂 Cấu trúc thư mục chính
 ```text
 lib/
-├── model/               # Model dữ liệu (Article, Product,...)
-├── screen/              # Các màn hình (News, Detail,...)
-├── change_color_app.dart
-├── counter_app.dart
-├── gui_phan_hoi.dart
-├── login_form.dart
-├── signup_form.dart
-├── tinh_bmi.dart
-├── my_home_page.dart
-├── tong_hop_bai_tap.dart # Tổng hợp & menu bài tập
-└── main.dart
+├── model/                  # Model dữ liệu (Product, Article, ...)
+├── screen/                 # Các màn hình (News List, News Detail, ...)
+├── change_color_app.dart   # Bài tập đổi màu nền
+├── counter_app.dart        # Bài tập Counter
+├── gui_phan_hoi.dart       # Form gửi phản hồi
+├── login_form.dart         # Form đăng nhập
+├── signup_form.dart        # Form đăng ký
+├── tinh_bmi.dart           # Tính chỉ số BMI
+├── my_home_page.dart       # Trang chủ ứng dụng
+├── tong_hop_bai_tap.dart   # Tổng hợp & menu các bài tập
+└── main.dart               # Entry point của ứng dụng
 
 ---
 
-## 📋 Danh sách các bài tập
+📋 Danh sách các bài tập
 STT	Tên bài tập	Mô tả
 1	Home Page	Giao diện trang chủ
 2	My Place	Giao diện địa điểm
@@ -48,4 +48,43 @@ STT	Tên bài tập	Mô tả
 9	Sign Up Form	Form đăng ký
 10	Tính BMI	Tính chỉ số BMI
 11	Gửi Phản Hồi	Form gửi phản hồi người dùng
-12	Tin Tức (News)	Lấy dữ liệu tin tức từ API
+12	Tin Tức (News)	Lấy dữ liệu tin tức từ REST API
+
+
+🧭 Điều hướng ứng dụng
+Ứng dụng sử dụng Drawer Menu để hiển thị danh sách bài tập
+Mỗi màn hình đều có:
+Menu để chuyển nhanh giữa các bài tập
+Nút về Trang chủ
+Điều hướng giữa các màn hình bằng Navigator & Routes
+
+
+▶️ Hướng dẫn chạy project
+1️⃣ Clone repository
+git clone https://github.com/ntainguyenit/Mobile_App_Flutter.git
+
+2️⃣ Cài đặt các package
+flutter pub get
+
+3️⃣ Chạy ứng dụng
+flutter run
+
+🔐 Lưu ý về API
+Vì lý do bảo mật, API key không được đẩy lên repository công khai.
+Người dùng cần tự cấu hình API key khi chạy project ở môi trường local.
+
+🎯 Mục tiêu học tập
+Làm quen với Flutter & Dart
+Xây dựng UI theo Material Design
+Quản lý nhiều màn hình trong ứng dụng
+Áp dụng Navigation & Drawer Menu
+Làm việc với REST API và JSON
+
+👨‍💻 Thực hiện
+Sinh viên Công nghệ Thông tin, Trường Đại học Khoa học – Đại học Huế.
+
+⭐ Ghi chú
+Dự án được xây dựng nhằm phục vụ mục đích học tập và thực hành Flutter.
+Cấu trúc code được tổ chức rõ ràng, dễ mở rộng và bảo trì.
+
+Nếu bạn thấy project hữu ích, hãy cho repository một Star nhé!
