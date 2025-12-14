@@ -5,7 +5,7 @@ class Product {
   String description;
   String category;
   String image;
-  Rating rating; // Bổ sung rating
+  Rating rating; // Bổ sung Rating
 
   Product({
     required this.id,

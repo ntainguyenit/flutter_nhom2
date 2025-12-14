@@ -27,7 +27,7 @@ class NewsDetailScreen extends StatelessWidget {
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios, color: Colors.white),
           onPressed: () {
-            Navigator.pop(context); // Quay lại màn hình trước
+            Navigator.pop(context);
           },
         ),
       ),
