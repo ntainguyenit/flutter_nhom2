@@ -21,25 +21,6 @@ Mỗi bài tập được thiết kế như **một màn hình (Screen) độc l
 
 ---
 
-## Cấu trúc thư mục chính
-
-```text
-lib/
-├── model/                  # Model dữ liệu (Product, Article, ...)
-├── screen/                 # Các màn hình (News List, News Detail, ...)
-├── change_color_app.dart   # Bài tập đổi màu nền
-├── counter_app.dart        # Bài tập Counter
-├── gui_phan_hoi.dart       # Form gửi phản hồi
-├── login_form.dart         # Form đăng nhập
-├── signup_form.dart        # Form đăng ký
-├── tinh_bmi.dart           # Tính chỉ số BMI
-├── my_home_page.dart       # Trang chủ ứng dụng
-├── tong_hop_bai_tap.dart   # Tổng hợp & menu các bài tập
-└── main.dart               # Entry point của ứng dụng
-```
-
----
-
 ## Danh sách các bài tập
 
 | **STT** | **Tên bài tập** | **Mô tả** |
