@@ -1,8 +1,8 @@
-# Mobile App Flutter – Nhóm 2
+# Mobile App Flutter
 
 ## Giới thiệu
 
-**Mobile App Flutter – Nhóm 2** là ứng dụng tổng hợp các **bài tập Flutter** được xây dựng trong quá trình học môn **Lập trình Mobile**.  
+**Mobile App Flutter** là ứng dụng tổng hợp các **Flutter** được xây dựng trong quá trình học môn **Lập trình Mobile**.  
 
 Ứng dụng sử dụng **Flutter** để xây dựng giao diện và quản lý điều hướng giữa các màn hình thông qua **Drawer Menu & Navigation**.
 
@@ -21,9 +21,9 @@ Mỗi bài tập được thiết kế như **một màn hình (Screen) độc l
 
 ---
 
-## Danh sách các bài tập
+## Danh sách
 
-| **STT** | **Tên bài tập** | **Mô tả** |
+| **STT** | **Tên** | **Mô tả** |
 |---------|-----------------|-----------|
 | 1 | Home Page | Giao diện trang chủ |
 | 2 | My Place | Giao diện địa điểm |
@@ -42,9 +42,9 @@ Mỗi bài tập được thiết kế như **một màn hình (Screen) độc l
 
 ## Điều hướng ứng dụng
 
-- Ứng dụng sử dụng **Drawer Menu** để hiển thị danh sách bài tập
+- Ứng dụng sử dụng **Drawer Menu** để hiển thị danh sách
 - Mỗi màn hình đều có:
-  - **Menu** để chuyển nhanh giữa các bài tập
+  - **Menu** để chuyển nhanh giữa các danh sách
   - **Nút về Trang chủ**
 - Điều hướng giữa các màn hình bằng **Navigator & Routes**
 
@@ -94,4 +94,4 @@ Người dùng cần tự cấu hình API key khi chạy project ở môi trư�
 
 ---
 
-**© 2025 Tai Nguyen, Mobile App Flutter – Nhóm 2. All rights reserved.**
+**© 2025 Tai Nguyen, Mobile App Flutter. All rights reserved.**
